@@ -1,5 +1,5 @@
 k8s_yaml(kustomize('kubernetes/tilt'))
-k8s_yaml('kubernetes/base/graph.yaml')
+k8s_yaml('kubernetes/base/grafana.yaml')
 k8s_yaml('kubernetes/base/kube-state-metrics.yaml')
 
 local_resource(
